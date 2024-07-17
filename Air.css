@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid blue; */
+    padding: 5px;
+    margin-right: 350px;
+}
+li{
+    list-style-type: none;
+
+}
+.navlinks{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    color: black;
+}
+.navlinks:hover{
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgba(236, 222, 222, 0.633);
+    border: none;
+}
+#nav{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    
+
+}
+#signup{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    width: 85px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.icon{
+    /* border: 2px solid; */
+    padding: 10px;
+    color: black;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid lawngreen; */
+    align-items: center;
+}
+#text{
+    width: 750px;
+    margin-left: 380px;
+    padding: 25px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px lightgrey;
+    border: none;
+}
+#text1{
+    width: 250px;
+    font-size: 15;
+    padding: 25px;
+    border-radius: 50px;
+    position: relative;
+    right: 755px;
+    border: none;
+}
+#text1:hover{
+    background-color: rgba(236, 222, 222, 0.633);
+}
+#text2{
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    position: relative;
+    width: 120px;
+    right: 750px;
+    border: none;
+}
+#text2:hover{
+    background-color: rgba(236, 222, 222, 0.633);
+}
+#text3{
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    position: relative;
+    width: 120px;
+    left: 770px;
+    bottom: 70px;
+    border: none;
+}
+#text3:hover{
+    background-color: rgba(236, 222, 222, 0.633);
+}
+#text4{
+        padding: 25px;
+        border-radius: 50px;
+        font-size: 15px;
+        position: relative;
+        width: 207px;
+        left: 800px;
+        bottom: 70px;
+        border: none;
+
+}
+#text4:hover{
+    background-color: rgba(236, 222, 222, 0.633);
+}
+.content{
+    text-decoration: none;
+    color: black;
+}
+#container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+#container1{
+    height: 4000px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.images{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    /* padding-left: 50px; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-weight: 500px;
+}
+#container1{
+    display: grid;
+    grid-template-rows:400px 400px 400px 400px 400px 400px 400px 400px 400px 400px ;
+    grid-template-columns:400px 400px 400px 400px ;
+
+}
+#container1 a{
+    text-decoration: none;
+    color: black;
+}
+#header1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-weight: 600px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+#btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(60, 58, 58);
+    border: none;
+    margin-left: 640px;
+}
+#btn:hover{
+    background-color: black;
+}
+#footerpath{
+    height: 800px;
+    width: 100%;
+    background-color: #DDDDDD;
+    margin-top: 100px;
+}
+li{
+    list-style-type: none;
+
+}
+.footerlinks{
+     text-decoration: none;
+     color: #B0B0B0;
+     font-size: 20px;
+}
+.footerlinks:hover{
+    text-decoration: underline;
+    color: black;
+}
+#div1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#header2{
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+}
+#container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.foot{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-weight: 500px;
+}
+.foot1{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.foot2{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#container3{
+    display: flex;
+    justify-content: space-between;
+}
+.foot3{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 40px;
+
+}
+.foot3:hover{
+    text-decoration: underline;
+}
+.foot4{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-weight: lighter;
+    color: black;
+}
+.foot4:hover{
+    text-decoration: underline;
+}
+#container4{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+
+
+}
+#div2{
+    margin-left: 120px;
+}
+#div3{
+    position: relative;
+    right: 160px;
+}
+#div4{
+    position: relative;
+    right: 290px;
+}
+#div5{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+    width: 400px;
+    padding: 15px;
+    margin-right: 500px;
+}
+#div6{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    width: 250px;
+}
+#copy{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-weight: 600px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.left{
+    margin-left: 100px;
+}
+.Centre{
+    position: relative;
+    right: 20px;
+}
+.right{
+    position: relative;
+    right: 80px;
+}
+.middle{
+position: relative;
+left: 40px;
+}
+.thick{
+    font-weight: bolder;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
